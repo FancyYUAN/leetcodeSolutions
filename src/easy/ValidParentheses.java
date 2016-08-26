@@ -4,7 +4,7 @@ import java.util.LinkedList;
 
 /**
  * Created by YUANWENTAO on 2016/8/25.
- * Leetcode No.20
+ * Leetcode algorithms No.20
  * Valid Parentheses
  * 平衡符号：建立一个空栈，从头开始读入字符。如果是开放符号"( [ {",入栈。如果是封闭符号，栈为空的时候报错；否则将元素弹出。
  * 如果弹出的符号不是其对应的开放符号，则报错。最后，如果栈非空，也报错。

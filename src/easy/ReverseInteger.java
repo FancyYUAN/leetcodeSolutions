@@ -2,7 +2,8 @@ package easy;
 
 /**
  * Created by YUANWENTAO on 2016/8/20.
- * Leetcode question No.7: Reverse Integer.
+ * Leetcode algorithms No.7
+ * Reverse Integer.
  */
 
 public class ReverseInteger {
