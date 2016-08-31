@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="592f07be-803b-4a7c-807d-a901383e3fb8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/easy/LengthOfLastWord.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/leetcodeSolutions/easy/RomanToInt.class" afterPath="$PROJECT_DIR$/out/production/leetcodeSolutions/easy/RomanToInt.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/easy/RomanToInt.java" afterPath="$PROJECT_DIR$/src/easy/RomanToInt.java" />
     </list>
     <ignored path="leetcodeSolutions.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,12 +27,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LengthOfLastWord.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LengthOfLastWord.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/easy/LengthOfLastWord.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.026446281">
+            <state vertical-scroll-proportion="0.0">
               <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RomanToInt.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/easy/RomanToInt.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.22809917">
+              <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -60,8 +73,8 @@
         <option value="$PROJECT_DIR$/src/easy/ValidParenthese.java" />
         <option value="$PROJECT_DIR$/src/easy/ReverseInteger.java" />
         <option value="$PROJECT_DIR$/src/easy/ValidParentheses.java" />
-        <option value="$PROJECT_DIR$/src/easy/RomanToInt.java" />
         <option value="$PROJECT_DIR$/src/easy/LengthOfLastWord.java" />
+        <option value="$PROJECT_DIR$/src/easy/RomanToInt.java" />
       </list>
     </option>
   </component>
@@ -119,7 +132,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
-  <component name="RunManager" selected="Application.LengthOfLastWord">
+  <component name="RunManager" selected="Application.RomanToInt">
     <configuration default="false" name="ReverseInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -618,8 +631,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.LengthOfLastWord" />
-        <item index="1" class="java.lang.String" itemvalue="Application.RomanToInt" />
+        <item index="0" class="java.lang.String" itemvalue="Application.RomanToInt" />
+        <item index="1" class="java.lang.String" itemvalue="Application.LengthOfLastWord" />
         <item index="2" class="java.lang.String" itemvalue="Application.ValidParentheses" />
         <item index="3" class="java.lang.String" itemvalue="Application.ReverseInteger" />
         <item index="4" class="java.lang.String" itemvalue="Application.ReverseInteger" />
@@ -640,7 +653,7 @@
       <workItem from="1472132484745" duration="3268000" />
       <workItem from="1472135882700" duration="1659000" />
       <workItem from="1472179539420" duration="1635000" />
-      <workItem from="1472643641139" duration="2145000" />
+      <workItem from="1472643641139" duration="2634000" />
     </task>
     <task id="LOCAL-00001" summary="Reverse Integer">
       <created>1471664749846</created>
@@ -660,11 +673,17 @@
       <option name="project" value="LOCAL" />
       <updated>1472180689512</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Valid Parentheses">
+      <created>1472646301783</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1472646301783</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10555000" />
+    <option name="totallyTimeSpent" value="11044000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1932" height="1056" extended-state="0" />
@@ -786,21 +805,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/easy/RomanToInt.java">
+    <entry file="file://$PROJECT_DIR$/src/easy/LengthOfLastWord.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/easy/LengthOfLastWord.java">
+    <entry file="file://$PROJECT_DIR$/src/easy/RomanToInt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.026446281">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding />
+        <state vertical-scroll-proportion="0.22809917">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

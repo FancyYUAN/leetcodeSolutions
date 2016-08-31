@@ -7,30 +7,34 @@ import java.util.Map;
  * Created by YUANWENTAO on 2016/8/26.
  * Leetcode algorithms No.13
  * 给定一个罗马数字，将其转换为整数。输入给定在1-3999。
- * 用hashmap加上递归实现
+ * 用switch貌似比写一个hashmap再调用快很多。
  */
 public class RomanToInt {
     public int solution (String s) {
-        Map<Character, Integer> RomToInt = new HashMap();
-        RomToInt.put('I', 1);
-        RomToInt.put('V', 5);
-        RomToInt.put('X', 10);
-        RomToInt.put('L', 50);
-        RomToInt.put('C', 100);
-        RomToInt.put('D', 500);
-        RomToInt.put('M', 1000);
-
+        char[] c = s.toCharArray();
         int sum = 0;
-        for(int i=0; i<s.length(); i++)
-        {
-            if(i == s.length() -1)
-                return sum+RomToInt.get(s.charAt(i));
-            else if (RomToInt.get(s.charAt(i)) < RomToInt.get(s.charAt(i+1)))
-                sum -= RomToInt.get(s.charAt(i));
-            else
-                sum += RomToInt.get(s.charAt(i));
+        for (int i = 0; i < c.length; i++) {
+            int val = getSymbolValue(c[i]);
+            if ((i + 1) < c.length && val < getSymbolValue(c[i+1])) {
+                sum -= val;
+            } else {
+                sum += val;
+            }
         }
         return sum;
+    }
+
+    public int getSymbolValue(char c) {
+        switch (c) {
+            case 'I': return 1;
+            case 'V': return 5;
+            case 'X': return 10;
+            case 'L': return 50;
+            case 'C': return 100;
+            case 'D': return 500;
+            case 'M': return 1000;
+        }
+        return -1;
     }
 
     public static void main(String[] args)
